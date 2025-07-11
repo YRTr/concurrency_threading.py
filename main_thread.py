@@ -28,7 +28,7 @@ thread1 = threading.Thread(target=count_down)
 thread2 = threading.Thread(target=rocket_launch_checks, args=(crucial_checks,))
 
 thread1.start()
-thread2.start()
+thread2.start() 
 
 thread1.join()
 thread2.join()
